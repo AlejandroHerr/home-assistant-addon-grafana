@@ -1,5 +1,6 @@
 ARG BUILD_FROM=grafana/grafana
-FROM $BUILD_FROM
+ARG arch
+FROM --platform=linux/${arch} $BUILD_FROM
 
 COPY rootfs /
 
