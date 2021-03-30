@@ -1,6 +1,6 @@
 {
   "name": "Grafana",
-  "version": "0.0.0",
+  "version": "0.0.4",
   "slug": "grafana",
   "description": "The open platform for beautiful analytics and monitoring.",
   "arch": [
@@ -12,7 +12,6 @@
   "options": {},
   "schema": {},
   "map": [
-    "share:rw",
     "ssl"
   ],
   "ports": {
@@ -20,5 +19,5 @@
   },
   "init": false,
   "webui": "http://[HOST]:[PORT:3000]",
-  "url": "https://github.com/AlejandroHerr/home-assistant-addons/README.md"
+  "url": "https://github.com/AlejandroHerr/home-assistant-addon-grafana"
 }
