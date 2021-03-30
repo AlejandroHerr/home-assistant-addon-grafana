@@ -1,0 +1,29 @@
+{
+  "name": "alejandroherr-home-assistant-addon-grafana",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroHerr/home-assistant-addon-grafana.git"
+  },
+  "author": "AlejandroHerr <hola@alejandroherr.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlejandroHerr/home-assistant-addon-grafana/issues"
+  },
+  "homepage": "https://github.com/AlejandroHerr/home-assistant-addon-grafana#readme",
+  "devDependencies": {
+    "commitizen": "^4.2.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "standard-version": "^9.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

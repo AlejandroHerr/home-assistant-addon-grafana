@@ -1,0 +1,34 @@
+name: main
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  sync_repostiory:
+    runs-on: ubuntu-latest
+    if: "!contains(github.event.head_commit.message, 'ci skip')"
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          path: "./home-assistant-addon-grafana"
+          token: ${{ secrets.TOKEN }}
+      - uses: actions/checkout@v2
+        with:
+          repository: "AlejandroHerr/home-assistant-addons"
+          path: "./home-assistant-addons"
+          token: ${{ secrets.TOKEN }}
+      - name: Copy files
+        run: mkdir -p ./home-assistant-addons/grafana && cp -rv ./home-assistant-addon-grafana/* ./home-assistant-addons/grafana
+      - name: Remove unused
+        run: rm -rf ./home-assistant-addons/grafana/{.git,.github,Dockerfile,rootfs,package.json,package-lock.json}
+      - uses: EndBug/add-and-commit@v7
+        with:
+          add: "."
+          author_name: AlejandroHerr
+          author_email: ahernandezc@protonmail.com
+          branch: main
+          cwd: "./home-assistant-addons"
+          message: "chore(grafana): addon updated"
