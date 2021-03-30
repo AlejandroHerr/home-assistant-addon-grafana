@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/AlejandroHerr/home-assistant-addon-grafana/compare/v0.0.3...v0.0.4) (2021-03-30)
+
+
+### Bug Fixes
+
+* add platform to Dockerfile ([474f356](https://github.com/AlejandroHerr/home-assistant-addon-grafana/commit/474f35682c9072885abda4e4939828487b5e0883))
+
 ### [0.0.3](https://github.com/AlejandroHerr/home-assistant-addon-grafana/compare/v0.0.2...v0.0.3) (2021-03-30)
 
 ### [0.0.2](https://github.com/AlejandroHerr/home-assistant-addon-grafana/compare/v0.0.1...v0.0.2) (2021-03-30)
