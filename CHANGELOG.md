@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.1 (2021-03-30)
+
+
+### Features
+
+* add basic grafana configuration ([ae89c7b](https://github.com/AlejandroHerr/home-assistant-addon-grafana/commit/ae89c7bee7faaa66032afeb62ff4abc4f8f5e039))
+* add image from repo ([33503a7](https://github.com/AlejandroHerr/home-assistant-addon-grafana/commit/33503a7dbef98c8f42ed5e7d74f2530cbb488aab))
+
 ### [1.0.4](https://github.com/AlejandroHerr/home-assistant-addon-grafana/compare/v1.0.3...v1.0.4) (2021-03-30)
 
 
