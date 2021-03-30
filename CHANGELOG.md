@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/AlejandroHerr/home-assistant-addon-grafana/compare/v0.0.4...v0.0.5) (2021-03-30)
+
+
+### Bug Fixes
+
+* add BUILD_ARCH ([ee06a63](https://github.com/AlejandroHerr/home-assistant-addon-grafana/commit/ee06a63bfb947853abd60c8e9a7b3cfa95987943))
+
 ### [0.0.4](https://github.com/AlejandroHerr/home-assistant-addon-grafana/compare/v0.0.3...v0.0.4) (2021-03-30)
 
 
